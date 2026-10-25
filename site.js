@@ -1,7 +1,7 @@
 // ===== SETTINGS — the only things you should need to change =====
 // 1. Contact form: make a free form at formspree.io, then paste its ID here (e.g. "xyzabcd").
 //    Until then, the form opens the visitor's email app instead.
-const FORMSPREE_ID = "";
+const FORMSPREE_ID = "mvkkkory";;
 
 // 2. For Sale page: publish Dad's Google Sheet as CSV (File > Share > Publish to web > CSV)
 //    and paste the link here. Sheet columns (row 1):
