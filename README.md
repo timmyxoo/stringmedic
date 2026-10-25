@@ -23,4 +23,4 @@ Extract the zip (right-click > Extract All), then double-click `index.html`.
 - **Closed for holidays:** in each page, find `<div class="notice" hidden>`, delete the word `hidden`, and edit the text.
 
 ## Before cancelling Squarespace
-The Workshop gallery photos (flood guitar and violin) still load from Squarespace. Save them and send them to Claude to move into the `images` folder, otherwise they'll disappear when the plan ends.
+All photos are now stored in the `images` folder, so nothing depends on Squarespace any more. It's safe to cancel the Squarespace website plan once the domain points here (keep the domain itself until it's moved).
