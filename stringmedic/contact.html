@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en-NZ">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact | String Medic</title>
+  <meta name="description" content="Contact String Medic in Mount Roskill, Auckland for a quote or booking.">
+  <meta property="og:title" content="Contact | String Medic">
+  <meta property="og:description" content="Contact String Medic in Mount Roskill, Auckland for a quote or booking.">
+  <meta property="og:image" content="https://www.stringmedic.co.nz/images/share.jpg">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" href="images/favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,500&family=Instrument+Sans:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Holiday / closure notice: remove the "hidden" word below to show it, and edit the text. -->
+  <div class="notice" hidden>String Medic is closed until [date]. Sorry for the inconvenience.</div>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html"><img src="images/logo-mark.png" alt="" width="40" height="40"><span class="brand-text"><strong>String Medic</strong><span>Stringed instrument specialist</span></span></a>
+      <button class="menu-btn" aria-expanded="false" aria-controls="nav">Menu</button>
+      <nav class="nav" id="nav">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="workshop.html">Workshop</a>
+      <a href="for-sale.html">For Sale</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="parallax short"><img data-parallax src="images/clamps.jpg" alt="">
+      <div class="wrap stack">
+        <span class="eyebrow">Contact</span>
+        <h1>Get in touch</h1>
+        <p>Send a message for a quote or to book a time, and we'll get back to you soon.</p>
+      </div>
+    </section>
+    <section style="padding-top:2rem">
+      <div class="wrap contact-grid">
+        <div class="details stack">
+          <dl>
+            <div><dt>Phone</dt><dd><a href="tel:+64210230511">021 0230 5111</a><br><a href="tel:+6496292925">(09) 629 2925</a></dd></div>
+            <div><dt>Email</dt><dd><a href="mailto:stringmedic@gmail.com">stringmedic@gmail.com</a></dd></div>
+            <div><dt>Workshop</dt><dd>Luke Ha<br>2A Admiral Beatty Avenue<br>Mount Roskill, Auckland 1041</dd></div>
+          </dl>
+          <div class="tip"><strong>Finding us:</strong> map apps tend to lead to the house behind the workshop. Look for the house next to 11 Hardley Avenue, Mt Roskill.</div>
+          <div class="actions"><a class="btn" href="https://www.google.com/maps/search/?api=1&amp;query=2A+Admiral+Beatty+Avenue+Mount+Roskill+Auckland" rel="noopener">Open in Google Maps</a></div>
+        </div>
+        <form id="contact-form">
+          <div class="row">
+            <label for="name">Name<input id="name" name="name" required autocomplete="name"></label>
+            <label for="phone">Phone (optional)<input id="phone" name="phone" type="tel" autocomplete="tel"></label>
+          </div>
+          <label for="email">Email<input id="email" name="email" type="email" required autocomplete="email"></label>
+          <label for="instrument">Instrument
+            <select id="instrument" name="instrument">
+              <option>Violin</option><option>Viola</option><option>Cello</option><option>Double bass</option>
+              <option>Guitar</option><option>Ukulele</option><option>Bow</option><option>Lessons</option><option>Buying an instrument</option><option>Other</option>
+            </select>
+          </label>
+          <label for="message">Message<textarea id="message" name="message" required placeholder="What does your instrument need? Photos can be sent by email afterwards."></textarea></label>
+          <div class="actions"><button class="btn primary" type="submit">Send message</button></div>
+          <p class="form-status" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="stack">
+        <strong>String Medic</strong>
+        <p>Servicing, repairs, restoration and custom-made string instruments in Mount Roskill, Auckland.</p>
+      </div>
+      <div class="stack">
+        <span class="eyebrow">Workshop</span>
+        <span>2A Admiral Beatty Avenue<br>Mount Roskill, Auckland 1041</span>
+      </div>
+      <div class="stack">
+        <span class="eyebrow">Get in touch</span>
+        <span><a href="tel:+64210230511">021 0230 5111</a><br><a href="mailto:stringmedic@gmail.com">stringmedic@gmail.com</a><br><a href="https://www.facebook.com/stringmedic" rel="noopener">Facebook</a></span>
+      </div>
+      <p class="small">&copy; <span data-year></span> String Medic</p>
+    </div>
+  </footer>
+  <script src="site.js"></script>
+</body>
+</html>
